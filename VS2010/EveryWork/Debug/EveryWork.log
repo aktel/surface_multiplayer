@@ -1,0 +1,35 @@
+﻿Построение начато 10.05.2015 7:03:25.
+     1>Проект "C:\fastcode\VS2010\EveryWork\EveryWork.vcxproj" в узле 2 (целевые объекты ClCompile).
+     1>ClCompile:
+         d:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\ /I..\..\surface\xash\ /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D EVERYWORK_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\surface\server\sv_client.cpp
+         sv_client.cpp
+     1>c:\fastcode\surface\xash\net_buffer.h(103): error C2061: синтаксическая ошибка: идентификатор "vec3_t"
+     1>c:\fastcode\surface\xash\netchan.h(116): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "sock"
+     1>c:\fastcode\surface\xash\netchan.h(116): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>c:\fastcode\surface\xash\netchan.h(116): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>c:\fastcode\surface\xash\netchan.h(117): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "remote_address"
+     1>c:\fastcode\surface\xash\netchan.h(117): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>c:\fastcode\surface\xash\netchan.h(117): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>c:\fastcode\surface\xash\netchan.h(180): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "net_from"
+     1>c:\fastcode\surface\xash\netchan.h(180): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>c:\fastcode\surface\xash\netchan.h(180): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>c:\fastcode\surface\xash\netchan.h(181): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "net_local"
+     1>c:\fastcode\surface\xash\netchan.h(181): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>c:\fastcode\surface\xash\netchan.h(181): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>c:\fastcode\surface\xash\netchan.h(189): error C2065: netsrc_t: необъявленный идентификатор
+     1>c:\fastcode\surface\xash\netchan.h(189): error C2146: синтаксическая ошибка: отсутствие ")" перед идентификатором "sock"
+     1>c:\fastcode\surface\xash\netchan.h(189): error C2182: Netchan_Setup: недопустимое использование типа "void"
+     1>c:\fastcode\surface\xash\netchan.h(189): error C2059: синтаксическая ошибка: )
+     1>c:\fastcode\surface\xash\netchan.h(196): error C2061: синтаксическая ошибка: идентификатор "netadr_t"
+     1>c:\fastcode\surface\xash\netchan.h(197): error C2061: синтаксическая ошибка: идентификатор "netadr_t"
+     1>c:\fastcode\iunknown.h(11): error C2011: IUnknown: переопределение типа "struct"
+                 c:\program files\microsoft sdks\windows\v7.0a\include\unknwn.h(113): см. объявление "IUnknown"
+     1>c:\fastcode\edict.h(50): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+     1>c:\fastcode\edict.h(50): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>c:\fastcode\edict.h(50): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>c:\fastcode\surface\server\server.h(12): fatal error C1083: Не удается открыть файл включение: CServerInterface.h: No such file or directory
+     1>Построение проекта "C:\fastcode\VS2010\EveryWork\EveryWork.vcxproj" завершено (целевые объекты ClCompile) с ошибкой.
+
+СБОЙ построения.
+
+Затраченное время: 00:00:00.59

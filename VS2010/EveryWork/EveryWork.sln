@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "surface", "EveryWork.vcxproj", "{49D68C43-67FF-4273-B0C1-0FC02AEC0182}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GTA_VC", "GTA_VC", "{D965C3DE-5509-4769-979A-494D9778CDC2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gtavc_launcher", "..\gtavc_launcher\gtavc_launcher.vcxproj", "{0CF8F9A4-7760-4DEA-9E2C-B53D2B025C49}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{49D68C43-67FF-4273-B0C1-0FC02AEC0182}.Debug|Win32.ActiveCfg = Debug|Win32
+		{49D68C43-67FF-4273-B0C1-0FC02AEC0182}.Debug|Win32.Build.0 = Debug|Win32
+		{49D68C43-67FF-4273-B0C1-0FC02AEC0182}.Release|Win32.ActiveCfg = Release|Win32
+		{49D68C43-67FF-4273-B0C1-0FC02AEC0182}.Release|Win32.Build.0 = Release|Win32
+		{0CF8F9A4-7760-4DEA-9E2C-B53D2B025C49}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0CF8F9A4-7760-4DEA-9E2C-B53D2B025C49}.Debug|Win32.Build.0 = Debug|Win32
+		{0CF8F9A4-7760-4DEA-9E2C-B53D2B025C49}.Release|Win32.ActiveCfg = Release|Win32
+		{0CF8F9A4-7760-4DEA-9E2C-B53D2B025C49}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0CF8F9A4-7760-4DEA-9E2C-B53D2B025C49} = {D965C3DE-5509-4769-979A-494D9778CDC2}
+	EndGlobalSection
+EndGlobal

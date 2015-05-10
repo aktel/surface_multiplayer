@@ -1,0 +1,25 @@
+#ifndef SURFACE_HOST_H
+#define SURFACE_HOST_H
+
+#ifdef PRAGMA_ONCE
+#pragma once
+#endif
+
+#include <platform.h>
+
+BEGIN_C
+
+typedef struct
+{
+	FRAME_SEGMENT_INFO = 1,
+	FRAME_SEGMENT_CLIENT = 2,
+	FRAME_SEGMENT_SERVER = 4,
+	FRAME_SEGMENT_RENDER = 8,
+	FRAME_SEGMENT_INPUT = 16,
+	FRAME_SEGMENT_GAMECALL = 64,
+	FRAME_SINGLE = 32,
+} eHostProcess;
+
+END_C
+
+#endif // SURFACE_HOST_H

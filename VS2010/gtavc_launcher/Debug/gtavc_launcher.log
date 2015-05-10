@@ -1,0 +1,14 @@
+﻿Построение начато 08.05.2015 22:19:17.
+     1>Проект "C:\fastcode\VS2010\gtavc_launcher\gtavc_launcher.vcxproj" в узле 2 (целевые объекты ClCompile).
+     1>ClCompile:
+         d:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\ /I..\..\launcher /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D GTAVC_LAUNCHER_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "..\..\gta-vc\launcher\launcher.cpp"
+         launcher.cpp
+     1>c:\fastcode\gta-vc\launcher\launcher.cpp(18): error C2440: =: невозможно преобразовать "void (__cdecl *)(void)" в "ILauchSurface *(__cdecl *)(void)"
+                 Для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+     1>c:\fastcode\gta-vc\launcher\launcher.cpp(47): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "ILauncher"
+     1>c:\fastcode\gta-vc\launcher\launcher.cpp(47): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>Построение проекта "C:\fastcode\VS2010\gtavc_launcher\gtavc_launcher.vcxproj" завершено (целевые объекты ClCompile) с ошибкой.
+
+СБОЙ построения.
+
+Затраченное время: 00:00:00.62
