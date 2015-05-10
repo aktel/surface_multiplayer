@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\StdWork">
+      <UniqueIdentifier>{96723c2f-43fc-4b1a-a48b-08f3eb85a1bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\StdWork">
+      <UniqueIdentifier>{b68a11bb-0aae-4c2d-b82f-da14dda24b65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Xash">
+      <UniqueIdentifier>{0802d49a-74eb-47d6-ba72-6f8c905d2ba4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Xash">
+      <UniqueIdentifier>{73013671-d92f-4be7-aac6-3dbd347a4e07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Client">
+      <UniqueIdentifier>{37e94f65-0563-4c1f-ac1a-aa7b90739299}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Server">
+      <UniqueIdentifier>{0cad6e35-8972-48bb-a819-fa78000d2abc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\crtlib.h">
+      <Filter>Header Files\StdWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\const.h">
+      <Filter>Header Files\StdWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\surface\xash\netchan.h">
+      <Filter>Header Files\Xash</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common.h">
+      <Filter>Header Files\Xash</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\mathlib.c">
+      <Filter>Source Files\StdWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\matrixlib.c">
+      <Filter>Source Files\StdWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\crclib.c">
+      <Filter>Source Files\StdWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\crtlib.c">
+      <Filter>Source Files\StdWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\build.c">
+      <Filter>Source Files\StdWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\surface\xash\network.c">
+      <Filter>Source Files\Xash</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\surface\server\sv_client.cpp">
+      <Filter>Source Files\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\surface\server\sv_cmds.cpp">
+      <Filter>Source Files\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\surface\server\sv_game.cpp">
+      <Filter>Source Files\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\surface\server\sv_init.cpp">
+      <Filter>Source Files\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\surface\server\sv_main.cpp">
+      <Filter>Source Files\Server</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
